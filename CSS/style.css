@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: sans-serif;
+  object-fit: cover;
+}
+.container {
+  background-color: #d0d5e0;
+  width: 100%;
+  height: 100%;
+}
+.box1 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  background-color: #ffffff;
+  padding-top: 40px;
+}
+.box1 h1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #363940;
+}
+.box1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #95a1bb;
+  margin-top: 15px;
+}
+.box .img2 {
+  color: #363940;
+}
+.box1 img {
+  width: 900px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.box1__users {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.box1__users-card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+.box1__users-card1-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.box1__users-card1-content i {
+  background: #f6f7fa;
+  border-radius: 25px;
+  color: #95a1bb;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.box1__users-card1-content-text h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #363940;
+  margin-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: start;
+}
+.box1__users-card1-content-text h5 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #95a1bb;
+  text-align: start;
+}
+.box1__users-card2-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box1__users-card2-content i {
+  background: #f6f7fa;
+  border-radius: 25px;
+  color: #95a1bb;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.box1__users-card2-content-text h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #363940;
+  margin-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: start;
+}
+.box1__users-card2-content-text h5 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #95a1bb;
+  text-align: start;
+}
+.box1__users-card3-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box1__users-card3-content i {
+  background: #f6f7fa;
+  border-radius: 25px;
+  color: #95a1bb;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.box1__users-card3-content-text h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #363940;
+  margin-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: start;
+}
+.box1__users-card3-content-text h5 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #95a1bb;
+  text-align: start;
+}
+.box1__users-card2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+
+.box1__users-card3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+/* box2 style beginning */
+.box2 {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: white;
+}
+.box2__heading h1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #363940;
+  padding-top: 35px;
+  margin-bottom: 15px;
+}
+.box2__heading p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #95a1bb;
+}
+.box2__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+  gap: 25px 40px;
+}
+.box2__cards-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  width: 430px;
+}
+.box2__cards-card img {
+  width: 120px;
+  height: 120px;
+}
+.box2__cards-card h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #363940;
+  margin-bottom: 7px;
+}
+.box2__cards-card h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #95a1bb;
+  margin-bottom: 7px;
+}
+.box2__cards-card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #363940;
+}
+/* box3 styling */
+.box3 {
+  width: 100%;
+  margin-top: 60px;
+  border-top: 10px solid #d0d5e0;
+  background-color: white;
+  border-bottom: 10px solid #d0d5e0;
+}
+.box3__card1 {
+  width: 60%;
+}
+.box3__card1 {
+  padding: 30px 140px 30px 220px;
+}
+.box3__card1-heading h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: #363940;
+}
+.box3__card1-heading p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 10px;
+  color: #95a1bb;
+  margin-bottom: 20px;
+}
+.box3__card1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 30px;
+}
+.box3__card1-cards img {
+  width: 200px;
+  height: 180px;
+  margin-bottom: 10px;
+}
+.box3__card1-cards h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #363940;
+  margin-bottom: 7px;
+}
+.box3__card1-cards p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #95a1bb;
+}
+.box3__card2 {
+  width: 40%;
+}
+.box3 {
+  display: flex;
+}
+.box3__card2 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* box4 styling */
+.box4 {
+  width: 100%;
+  padding: 20px 100px;
+  border-bottom: 10px solid #d0d5e0;
+}
+.box4__heading h1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #363940;
+}
+.box4__heading p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #95a1bb;
+  margin-top: 7px;
+  margin-bottom: 15px;
+}
+.box4__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 20px;
+}
+.box4__cards-card img {
+  width: 220px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.box4__cards-card h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #363940;
+  margin-bottom: 7px;
+}
+.box4__cards-card p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #95a1bb;
+}
